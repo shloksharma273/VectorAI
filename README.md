@@ -26,3 +26,15 @@ To get started with VectorAI, clone the repository and follow the installation i
 1. Clone the repository:
    ```bash
    git clone https://github.com/shloksharma273/VectorAI.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd VectorAI
+
+3. Install dependencies:
+   ```bash
+   flutter pub get
+
+3. Run the app:
+   ```bash
+   flutter run

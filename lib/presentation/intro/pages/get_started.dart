@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vector_ai/core/config/assets/app_images.dart';
 import 'package:vector_ai/core/config/theme/app_colors.dart';
-import 'package:vector_ai/presentation/authentication/pages/signup.dart';
+
 
 class GetStarted extends StatelessWidget {
   const GetStarted({super.key});
@@ -35,14 +35,7 @@ class GetStarted extends StatelessWidget {
                 children: [
                   Expanded(
                     child: ElevatedButton(
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const Signup(),
-                          ),
-                        );
-                      },
+                      onPressed: () {},
                       style: ElevatedButton.styleFrom(
                         minimumSize: const Size.fromHeight(70),
                         backgroundColor: AppColors.primary,

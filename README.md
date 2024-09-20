@@ -2,7 +2,6 @@
 
 VectorAI is an innovative app designed to act as your personal assistant, helping you boost your mental health. With features that support mindfulness, mood tracking, and positive reinforcement, VectorAI aims to provide a comprehensive toolkit for improving your mental well-being.
 
-![VectorAI UI](iamges/vector_homepage.png)
 
 ## Features
 

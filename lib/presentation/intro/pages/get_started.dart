@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vector_ai/core/config/assets/app_images.dart';
 import 'package:vector_ai/core/config/theme/app_colors.dart';
-
+import 'package:vector_ai/presentation/main_page/chat.dart';
 
 class GetStarted extends StatelessWidget {
   const GetStarted({super.key});
@@ -35,25 +35,30 @@ class GetStarted extends StatelessWidget {
                 children: [
                   Expanded(
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (BuildContext context) => const ChatPage(),
+                          ),
+                        );
+                      },
                       style: ElevatedButton.styleFrom(
-                        minimumSize: const Size.fromHeight(70),
-                        backgroundColor: AppColors.primary,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)
-                        )
+                          minimumSize: const Size.fromHeight(70),
+                          backgroundColor: AppColors.primary,
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(20))),
+                      child: const Text(
+                        "Lesgoooo",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontFamily: 'Sedan',
+                            fontSize: 28),
                       ),
-                      child: const Text("Lesgoooo",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontFamily: 'Sedan',
-                        fontSize: 28
-                      ),),
                     ),
                   )
                 ],
               )
-              
             ],
           ),
         )
